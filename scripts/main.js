@@ -2,12 +2,12 @@ let myImage = document.querySelector('img');
 
 myImage.onclick = function() {
   let mySrc = myImage.getAttribute('src');
-  if(mySrc === '/users/sweatynettie/Desktop/Classes/DS4200/Homework1/images/Golfer.jpg') {
-    myImage.setAttribute ('src','/users/sweatynettie/Desktop/Classes/DS4200/Homework1/images/Family.jpg');
-  } else if (mySrc === '/users/sweatynettie/Desktop/Classes/DS4200/Homework1/images/Family.jpg') {
-    myImage.setAttribute ('src','/users/sweatynettie/Desktop/Classes/DS4200/Homework1/images/Brett.jpg');
-  } else if (mySrc === '/users/sweatynettie/Desktop/Classes/DS4200/Homework1/images/Brett.jpg') {
-    myImage.setAttribute ('/users/sweatynettie/Desktop/Classes/DS4200/Homework1/images/Golfer.jpg');
+  if(mySrc === '/images/Golfer.jpg') {
+    myImage.setAttribute ('/images/Family.jpg');
+  } else if (mySrc === '/images/Family.jpg') {
+    myImage.setAttribute ('/images/Brett.jpg');
+  } else if (mySrc === '/images/Brett.jpg') {
+    myImage.setAttribute ('/images/Golfer.jpg');
   }
 }
 
