@@ -2,12 +2,12 @@ let myImage = document.querySelector('img');
 
 myImage.onclick = function() {
   let mySrc = myImage.getAttribute('src');
-  if(mySrc === '/images/Golfer.jpg') {
-    myImage.setAttribute ('/images/Family.jpg');
-  } else if (mySrc === '/images/Family.jpg') {
-    myImage.setAttribute ('/images/Brett.jpg');
-  } else if (mySrc === '/images/Brett.jpg') {
-    myImage.setAttribute ('/images/Golfer.jpg');
+  if(mySrc === 'images/Golfer.jpg') {
+    myImage.setAttribute ('images/Family.jpg');
+  } else if (mySrc === 'images/Family.jpg') {
+    myImage.setAttribute ('images/Brett.jpg');
+  } else if (mySrc === 'images/Brett.jpg') {
+    myImage.setAttribute ('images/Golfer.jpg');
   }
 }
 
